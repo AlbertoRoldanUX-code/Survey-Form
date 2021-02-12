@@ -141,3 +141,24 @@ p {
     --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
     --color-green: #37af65;
 }
+
+
+@media screen and (min-width: 480px) {
+  form {
+      padding: 2.5rem;
+  }
+}
+
+
+@media scren and (min-width: 576px) {
+  .container {
+      max-width: 540px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+      max-width: 720px;
+  }
+}
